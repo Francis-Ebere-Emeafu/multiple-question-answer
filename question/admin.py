@@ -13,6 +13,6 @@ class QuiznAdmin(admin.ModelAdmin):
     list_display = ['name', 'num_of_questions', 'duration']
 
 
-@admin.register(Option)
-class OptionAdmin(admin.ModelAdmin):
-    list_display = ['content', 'correct']
+# @admin.register(Option)
+# class OptionAdmin(admin.ModelAdmin):
+#     list_display = ['content', 'correct']
